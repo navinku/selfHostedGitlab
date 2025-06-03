@@ -1,0 +1,11 @@
+name: selfHostedGitlab
+description: A self hosted gitlab on aws via pulumi python
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
